@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_article{padding-left:43px; width:665px; font-family:"微软雅黑";}
+.main_article .pos{color:#888; border-bottom:1px solid #ddd; padding:0 0 10px 5px;}
+.main_article .pos a{color:#90c300;}
+
+.main_article .article_box dl.gamecon{*width:665px;}
+.main_article .article_box dl.gamecon a{color:#90c300;}
+.main_article .article_box dl.gamecon dt{padding:20px; width:128px; height:128px; text-align:center;}
+.main_article .article_box dl.gamecon dt img{width:128px; height:128px; margin:0 auto; display:block;}
+.main_article .article_box dl.gamecon dt p{padding:25px 0 10px; color:#888;}
+.main_article .article_box dl.gamecon dd{padding-left:20px; padding-top:20px; width:450px;}
+.main_article .article_box dl.gamecon dd h2{color:#555; font-size:22px; width:340px; padding-bottom:10px; text-shadow:1px 1px 0 #fff;}
+.main_article .article_box dl.gamecon dd h4{color:#555; font-size:14px; padding-top:20px; padding-bottom:5px;}
+.main_article .article_box dl.gamecon dd p{padding:0; color:#666; line-height:28px; text-shadow:1px 1px 0 #fff;}
+
+.main_article .pinglun{border-top:1px dotted #ccc; margin-top:20px;}
+.main_article .pinglun h2{color:#555; padding-top:20px; font-size:18px;}	
+.main_article .pinglun dl{margin-top:15px; padding-bottom:15px; border-bottom:1px dotted #ccc; *width:665px;}
+.main_article .pinglun dl dt{padding-left:0;}
+.main_article .pinglun dl dt{width:50px; height:50px; padding-right:10px;}
+.main_article .pinglun dl dt img{width:50px; height:50px;}
+.main_article .pinglun dl dd{width:550px;}
+.main_article .pinglun dl dd p{padding-bottom:5px; color:#555;}
+.main_article .pinglun dl dd p span{margin-left:10px;}
+.main_article .pinglun dl dd p.pingluntxt{line-height:22px; color:#666;}
+
+.main_article .page{padding-top:15px;}
+
+.main_article .quick_reply{margin-top:10px;}
+.main_article .quick_reply .info_text{width:655px; height:100px; line-height:30px; border:none; border:1px solid #ccc; border-radius:2px; box-shadow:1px 1px 1px 0 #EAEAEA inset; color:#808080; padding:0 5px; vertical-align:middle; font-family:Arial, Helvetica, sans-serif, "宋体"; font-size:14px; resize:none; outline:none;}
+.main_article .quick_reply .info_text:focus{border-color:#90c300 !important; box-shadow:1px 1px 1px 0 #DDDDDD inset;color:#333;}
+.main_article .quick_reply .reply_btn{text-align:right; padding-top:10px;}
+.main_article .quick_reply .reply_btn span{line-height:32px; margin-right:10px; color:#666;}
+.main_article .quick_reply .reply_btn span i{font-weight:bold; font-size:18px; margin:0 3px; font-family:Verdana, Geneva, sans-serif;}
+.main_article .quick_reply .reply_btn span a{color:#72c261; margin:0 3px;}
+.main_article .quick_reply .reply_btn span a:hover{text-decoration:underline;}
+.main_article .quick_reply .reply_btn a.button-green{
+	float:right;
+	text-decoration:none;
+	padding:5px 10px;
+	color: #fff;
+	border: 1px solid #2c8e00;
+	border-radius: 3px;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4eb23a), color-stop(100%, #359921));
+	background-image: -webkit-linear-gradient(#4eb23a, #359921);
+	background-image: -moz-linear-gradient(#4eb23a, #359921);
+	background-image: -o-linear-gradient(#4eb23a, #359921);
+	background-image: linear-gradient(#4eb23a, #359921);
+	-webkit-box-shadow: #72c261 0 1px 1px 0px inset, #fff 0 1px 1px;
+	-moz-box-shadow: #72c261 0 1px 1px 0px inset, #fff 0 1px 1px;
+	box-shadow: #72c261 0 1px 1px 0px inset, #fff 0 1px 1px;
+	*zoom:1;
+	filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF4EB23A', endColorstr='#FF359921');
+	background-color: #4fab00;
+	text-shadow: 0 0 0 #fff;
+}
+.main_article .quick_reply .reply_btn a.button-green:hover {
+	color: #fff;
+	text-decoration: none;
+	-webkit-box-shadow: #79d367 0 1px 1px 0px inset, #fff 0 1px 1px;
+	-moz-box-shadow: #79d367 0 1px 1px 0px inset, #fff 0 1px 1px;
+	box-shadow: #79d367 0 1px 1px 0px inset, #fff 0 1px 1px;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #57c840), color-stop(100%, #3eaf27));
+	background-image: -webkit-linear-gradient(#57c840, #3eaf27);
+	background-image: -moz-linear-gradient(#57c840, #3eaf27);
+	background-image: -o-linear-gradient(#57c840, #3eaf27);
+	background-image: linear-gradient(#57c840, #3eaf27);
+	*zoom:1;
+	filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF57C840', endColorstr='#FF3EAF27')
+}
+
+
+
+

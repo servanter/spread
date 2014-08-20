@@ -1,0 +1,83 @@
+10
+
+dir
+414
+svn://124.248.194.184/repos/spread/trunk/src/main/webapp
+svn://124.248.194.184/repos
+
+
+
+2014-01-01T06:52:07.770679Z
+412
+zhanghongyan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9b895f0f-f5bd-4ac6-92a4-e2eac6201885
+
+META-INF
+dir
+
+index.jsp
+file
+
+
+
+
+2013-11-27T15:21:44.095561Z
+afd707aebbab3303c069d430495f2afe
+2013-11-27T08:12:29.993055Z
+323
+zhanghongyan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+493
+
+decorators
+dir
+
+images
+dir
+
+WEB-INF
+dir
+
+common
+dir
+
+css
+dir
+
+js
+dir
+

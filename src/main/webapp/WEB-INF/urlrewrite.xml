@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.1//EN"
+        "http://tuckey.org/res/dtds/urlrewrite3.1.dtd">
+<urlrewrite>
+	<rule>
+		<from>/index.jsp</from>
+		<to>/index.do</to>
+	</rule>
+	<rule>
+		<from>/search/\w+\?infoClassId=\w?&amp;city=\w?&amp;page=\w?</from>
+		<to>/weChat/search.do?keywords=&amp;1&amp;infoClassId=$2&amp;city=$3&amp;page=$4</to>
+	</rule>
+	<rule>
+		<from>/search/\w+[/]?$</from>
+		<to>/weChat/search.do?keywords=$1</to>
+	</rule>
+	<rule>
+		<from>/weChat/([0-9]+)/</from>
+		<to>/weChat/weChatDetail.do?weChatId=$1</to>
+	</rule>
+	<rule>
+		<from>/weChat/list/([0-9]+)/([0-9]+)/([0-9]+)/([0-9]+)[/]?$</from>
+		<to>/weChat/weChatList.do?infoClassId=$1&amp;province=$2&amp;page=$3&amp;pageSize=$4</to>
+	</rule>
+	<rule>
+		<from>/weChat/list/([0-9]+)[/]?$</from>
+		<to>/weChat/weChatList.do?infoClassId=$1</to>
+	</rule>
+	<rule>
+		<from>/weChat/list[/]?$</from>
+		<to>/weChat/weChatList.do</to>
+	</rule>
+	
+	<rule>
+		<from>/comment/comment/</from>
+		<to>/comment/comment.do</to>
+	</rule>
+	<rule>
+		<from>/comment/commentList/([0-9]+)/([0-9]+)/([0-9]+)/</from>
+		<to>/comment/commentList.do?wechat_id=$1&amp;page=$2&amp;pageSize=$3</to>
+	</rule>
+	<rule>
+		<from>/login[/]?$</from>
+		<to>/beforeLogin.do</to>
+	</rule>
+	<rule>
+		<from>/userLogin[/]?</from>
+		<to>/userLogin.do</to>
+	</rule>
+	<rule>
+		<from>/register[/]?</from>
+		<to>/beforeRegister.do</to>
+	</rule>
+	<rule>
+		<from>/userRegister[/]?</from>
+		<to>/userRegister.do</to>
+	</rule>
+	<rule>
+		<from>/identifyCode[/]?</from>
+		<to>/imageCheckCode.do</to>
+	</rule>
+	<rule>
+		<from>/css/(.*).css</from>
+		<to>/css/$1.css</to>
+	</rule>
+	<rule>
+		<from>/js/(.*).js$</from>
+		<to>/js/$1.js</to>
+	</rule>
+</urlrewrite>

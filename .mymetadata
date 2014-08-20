@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="spread"
+  id="myeclipse.1382453488720"
+  context-root="/spread"
+  j2ee-spec="1.4"
+  archive="spread.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

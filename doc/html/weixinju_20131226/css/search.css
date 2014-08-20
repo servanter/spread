@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.main_list .pos{color:#888; border-bottom:none; padding:0 0 10px 5px; font-size:13px; font-family:"微软雅黑";}
+.main_list .label{color:#f40;}
+
+.main_list .list_box2 .search_box{padding:20px 10px; border-bottom:1px dotted #ccc; width:645px; height:90px;}
+.main_list .list_box2 .search_box a{color:#59c539; font-weight:bold;}
+.main_list .list_box2 .search_box a:hover{color:#59c539;}
+.main_list .list_box2 .search_box .search_img{float:left; width:90px; height:90px;}
+.main_list .list_box2 .search_box .search_img img{width:90px; height:90px;}
+.main_list .list_box2 .search_box .search_txt{float:left; padding-left:20px; width:450px; height:90px; overflow:hidden;}
+.main_list .list_box2 .search_box .search_txt div span{display:block; float:left; margin-right:10px; display:inline;}
+.main_list .list_box2 .search_box .search_txt p{line-height:24px; color:#888; text-indent:24px; padding-top:5px;}
+.main_list .list_box2 .search_box .search_btn{padding-top:15px;}
+.main_list .list_box2 .search_box .search_btn a.s-index-icon{
+		background-image: url(../images/s-index-icon-3.png);
+		display: block;
+		overflow: hidden;
+		color:#fff;
+		margin-top:8px;
+	}
+.main_list .list_box2 .search_box .search_btn .download{display:none; margin:0 auto;}
+.main_list .list_box2 .search_box .search_btn .download, .s-index-down{display:block; text-align:center; font-size:12px; text-indent:0px; width:60px; height:25px; line-height:25px; color:#fff; text-decoration:none; background-position:-228px -47px; background-color:#FF4E00;}
+.main_list .list_box2 .search_box .search_btn p{padding-top:5px; color:#888; text-align:center;}
+.main_list .list_box2 .search_box .search_btn .download:hover, .s-index-down:hover{background-position:-228px -74px; text-decoration:none; color:#fff}
